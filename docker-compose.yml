@@ -23,8 +23,8 @@ services:
       - SYMFONY_DATABASE_PORT_NUMBER=3306
       - SYMFONY_DATABASE_USER=ctta
       - SYMFONY_DATABASE_NAME=ctta
-#    volumes:
-#      - './app:/app:cached'
+    volumes:
+      - './app:/app:cached'
     depends_on:
       - mariadb
 
